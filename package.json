@@ -1,6 +1,6 @@
 {
   "name": "ip-info-finder",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "A package for analyzing IP addresses and retrieving valuable information, such as physical address, country of registration, WHOIS data, and weather information.",
   "main": "index.js",
   "scripts": {
