@@ -5,6 +5,10 @@
 
 [![Github All Releases](https://img.shields.io/npm/dt/ip-info-finder.svg)]()
 
+<a href="https://codeclimate.com/github/pariazar/ip-info-finder/maintainability"><img src="https://api.codeclimate.com/v1/badges/a5c9b90b523374d106cd/maintainability" /></a>
+
+[![GitHub issues](https://img.shields.io/github/issues/pariazar/ip-info-finder)](https://github.com/pariazar/ip-info-finder/issues)
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-0298c3.svg)](https://opensource.org/licenses/MIT)
 
