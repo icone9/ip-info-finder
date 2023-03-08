@@ -443,7 +443,7 @@ ipInfo.getIPInfo('IP-ADDRESS',options: {lang: 'fr'}).then(data => {
 
 
 ## Support
-  - [Bug Reports](https://github.com/hamedpa/ip-info-finder/issues/)
+  - [Bug Reports](https://github.com/pariazar/ip-info-finder/issues/)
 
 ## Contributors
 <p>
