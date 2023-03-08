@@ -1,19 +1,21 @@
 # ip-info-finder
+
+<div style="display: flex;">
+
 [![npm](https://img.shields.io/npm/v/ip-info-finder.svg?style=flat-square)](https://www.npmjs.com/package/ip-info-finder)
-
 ![building workflow](https://github.com/pariazar/ip-info-finder/actions/workflows/nodejs.yml/badge.svg)
-
 [![Github All Releases](https://img.shields.io/npm/dt/ip-info-finder.svg)]()
-
 <a href="https://codeclimate.com/github/pariazar/ip-info-finder/maintainability"><img src="https://api.codeclimate.com/v1/badges/a5c9b90b523374d106cd/maintainability" /></a>
-
 [![GitHub issues](https://img.shields.io/github/issues/pariazar/ip-info-finder)](https://github.com/pariazar/ip-info-finder/issues)
-
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-0298c3.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+
 
 
 ![alt text](./img/logo.png?raw=true)
+
 
 
 This package provides additional information on an IP address, such as its whois information, country, city, mobile status, user proxy or VPN status, and more. It supports both IPv4 and IPv6.</br>The package allows you to retrieve the following data:
