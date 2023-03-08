@@ -125,3 +125,8 @@ exports.getIPInfo.search = async (address, { filter, name }, page) => {
   const res = await getMoreInfoFromIp(address, { filter, name }, page);
   return res['results'];
 }
+
+(async () => {
+  const data = await this.getIPInfo('28.106.238.158');
+  console.log(data);
+})()

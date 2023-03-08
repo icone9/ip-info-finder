@@ -1,9 +1,12 @@
 # ip-info-finder
 [![npm](https://img.shields.io/npm/v/ip-info-finder.svg?style=flat-square)](https://www.npmjs.com/package/ip-info-finder)
 
-![building workflow](https://github.com/hamedpa/ip-info-finder/actions/workflows/nodejs.yml/badge.svg)
+![building workflow](https://github.com/pariazar/ip-info-finder/actions/workflows/nodejs.yml/badge.svg)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhamedpa%2Fip-info-finder.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhamedpa%2Fip-info-finder?ref=badge_shield)
+[![Github All Releases](https://img.shields.io/npm/dt/ip-info-finder.svg)]()
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-0298c3.svg)](https://opensource.org/licenses/MIT)
 
 
 ![alt text](./img/logo.png?raw=true)
@@ -55,17 +58,24 @@ ipInfo.getIPInfo('IP-ADDRESS').then(data => {
   "Country": "United States (US)",
   "Continent": "North America (NA)",
   "Coordinates": "37.751 (lat) / -97.822 (long)",
-  "Time": "2022-12-15 05:49:37 (America/Chicago)",
+  "Time": "2023-03-08 11:45:18 (America/Chicago)",
   "ipAddress": "28.106.238.158",
   "hostname": "28.106.238.158",
   "provider": "DNIC-AS-00749",
   "ASN": "749",
   "lat": "37.751",
-  "lon": "-97.822"
+  "lon": "-97.822",
+  "CountryInfo": {
+    "name": "United States",
+    "dial_code": "+1",
+    "emoji": "🇺🇸",
+    "code": "US",
+    "population": 326687501
+  }
 }
 ```
 
-if you have cors issue or you need more data you need to set cors value false like below code:
+If you are experiencing a CORS issue or require additional data, you will need to set the CORS value to 'false' as shown in the following code:
 
 ```javascript
 ipInfo.getIPInfo('28.106.238.158', options = { cors: false }).then(data => {
