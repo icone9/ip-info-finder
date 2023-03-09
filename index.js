@@ -40,10 +40,10 @@ const sendRequest = async (ip, lang = 'en', cors = true, currencyStatus = false)
 
 
   const phoneCodeResult = phoneCodes.filter((item) => item.name.includes(response.Country.split('(')[0].trim()));
-  const populationResult = population.filter((item) => item.country.includes(response.Country.split('(')[0].trim()));
+  const populationResult = population.filter((item) => item.country.toLowerCase() === (response.Country.split('(')[0].trim().toLowerCase()));
 
   if (response?.Country !== 'undefined (undefined)') {
-    delete populationResult[0].country;
+    delete populationResult.country;
     if (Array.isArray(phoneCodeResult) && phoneCodeResult.length > 0 && Array.isArray(populationResult) && populationResult.length > 0)
       response.CountryInfo = ({
         ...phoneCodeResult[0],
